@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+   
+}
+.top-bar{
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    height: 120px;
+    position: relative;
+    bottom: 5px;
+}
+.top-bar-logo{
+    height: 120px;
+    width: 400px;
+    margin-left:40px ;
+    margin-top: 0px;
+    display: inline-block;
+}
+.home-bar{
+    color: white;
+    display: inline-block;
+    position:absolute;
+    left: 1000px;
+    top: 30px;
+    
+}
+.home-bar table tr td a{
+    text-decoration: none;
+    color: #eeeeee;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
+.home-bar table tr td a:hover{
+    color: #FF5F00;
+}
+.bg-img1{
+    width: 100%;
+    height:700px;
+    display: inline-block;
+    margin-top: 0%;
+    position: relative;
+    top: -2.5px;
+}
+
+.search-bar{
+    background-color: white;
+    height: 80px;
+    width: 900px;
+    display: inline-block;
+    position: absolute;
+    left: 20%;
+    top: 180px;
+        border-radius: 10px;
+        border: 2px  ;
+        padding: 4px;
+      }
+.location-tag{
+    height: 20px;
+width: 20px;
+position: relative;
+left: 27px;
+top: 14px;
+}
+.location-text{
+    position: relative;
+    left: 50px;
+    bottom: 9px;
+    font-family: 'Montserrat', sans-serif;
+}
+.location-bar{
+    position: relative;
+    left: 48px;
+    opacity: 50%;
+}
+.search-area{
+   
+    /* background-color: #dddddd;
+  color: #666666; */
+  padding: 9px;
+  border-radius: 8px;
+  border: 0px solid transparent;
+  outline: none;
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  width: 250px;
+  height:20px;
+  transition: all 0.2s;
+  resize: none;
+  position: relative;
+  left: 40px;
+  bottom: 50px;
+}
+.sample{
+    padding: 20px ;
+    height: 7px;
+    width: 180px;
+    position: relative;
+    left: 650px;
+    bottom: 24px;
+    background-color: #FF5F00;
+    color: white;
+    border-radius: 9px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.sample:hover{
+    transition: all 0.2s;
+    background-color: #E8630A;
+    box-shadow: 1px solid #333333;
+    cursor: pointer;
+        box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.sample-text{
+    position: relative;
+    bottom: 4px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+.search-area:hover {
+    /* cursor: pointer; */
+    background-color: #eeeeee;
+  }
+  .search-area:focus {
+    cursor: text;
+    color: #333333;
+    background-color: white;
+    border-color: #333333;
+  }
+  video
+  {
+    width:100%;
+    height: 100%;
+  }
+  .front{
+/* height: 100%; */
+width: 100%;
+position: absolute;
+top: 1px;
+}
+.challenge-box{
+    height: 400px;
+    width: 420px;
+    background-color: rgba(33,33,33,.4);
+    position: relative;
+   bottom: 250px;
+    border-radius: 9px;
+}
+  .challenge-text{
+      color: #FF5F00;
+      color: #eeeeee;
+      position: relative;
+      top: 45px;
+      left: 10px;
+      width: 400px;
+      font-size: 30px;
+      
+  }
+  .solution-box{
+    height: 400px;
+    width: 420px;
+    background-color: rgba(33,33,33,.4);
+    position: relative;
+    left: 480px;
+    bottom:790px;
+    border-radius: 9px;
+  }
+  .solution-text{
+    color: #eeeeee;
+    position: relative;
+    top: 105px;
+    left: 10px;
+    width: 400px;
+    font-size: 30px;
+  }
+  .challenge-head{
+    height: 90px; 
+    width: 170px;
+    position: relative;
+    right: 190px;  
+    top: 3px;
+    color: #FF5F00;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    }
+    .arrow-img-r{
+        height: 120px;
+        width: 150px;
+        position: relative;
+        top: 80px;
+        right: 140px;
+    }
+    .solution-head{
+    height: 140px; 
+    width: 170px;
+    position: relative;
+    left: 920px;  
+    bottom: 410px;
+    color: #FF5F00;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    }
+    .arrow-img-l{
+        height: 120px;
+        width: 150px;
+        position: relative;
+        left: 840px;
+        top: 395px;
+    }
+    .arrow-left{
+        height: 120px;
+        width: 150px;
+        position: absolute;
+        left: 50px;
+        bottom: 100px;
+    }
+    .bottom-container{
+        width: 100%;
+        height: 45px;
+        background-color: black;
+        position: absolute;
+        top: 700px;
+        color: #FF5F00;
+         font-family: 'Montserrat', sans-serif;
+        
+    }
+    .contact-table{
+        margin-left: 105px;
+    }
+    .copyright{
+        color: #FF5F00;
+        position: relative;
+        bottom: 40px;
+        margin-left: 1287px;
+        
+    }
